@@ -121,8 +121,7 @@ int main() {
 		root = tree_insert(root, x);
 	
 	if(!root) printf("0");
-	else 
-	{
+	else {
 		if(root->left == NULL) printf("0 ");
 		else	printf("%d ", count(root->left));
 		if(root->right == NULL) printf("0");
